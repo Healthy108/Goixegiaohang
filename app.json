@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "AppTk",
+    "slug": "AppTk",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.AppTk",
+      "config":{
+        "googleMapsApiKey" :"AIzaSyBbwn2VNMgwB0BdGRZYVVjT3dU8j4rvM9Y"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+
+    "package":"com.AppTk",
+    "config" :{
+      "googleMaps":{
+        "apiKey":"AIzaSyBbwn2VNMgwB0BdGRZYVVjT3dU8j4rvM9Y"
+      }
+    },
+    "permissions":["ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION","FOREGROUND_SERVICE"],
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
